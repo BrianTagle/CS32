@@ -5,7 +5,7 @@ This class consisted of 4 projects and 5 homeworks
 
 Grades:  
 
-Homework | #1 | #2 | #3 | #4 
+Project | #1 | #2 | #3 | #4 
 --- | --- | --- | --- | --- | 
 Score(%) | 100 | 95 | 100 | 92
 
