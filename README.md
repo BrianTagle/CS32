@@ -1,5 +1,5 @@
 # CS32
-UCLA CS32 taken with Carey Nachenberg
+UCLA CS32 taken with Carey Nachenberg in Winter 2018
 
 This class consisted of 4 projects and 5 homeworks
 
