@@ -1,0 +1,9 @@
+2. Map<Coord, int>::insert causes a compilation error because when the map object tries to insert something, it uses the find function to see if the Key is already in the list and since Coord doesn't have a custom operator > defined for it, it can't compare two different keys to see if it can insert it into the list.
+
+3b. Without the two parameter function you wouldnt be able to pass in the path so you the function wouldn't have knowledge of the path so far and couldn't print out the base classes.  You could down a single inheritance line but without knowing the size of the class vectors of derived classes you wouldn't be able to catch all the different inheritance paths.
+
+4a.The complexity of this algorithim is O(N^3) because there are multiple nested loops.  The outer most loop runs N times, then the first nest loop runs N times every time the outer loop runs then the inner most nest loop runs N times everytime the loop above it runs.  Basically each of the nest loops ups the time complexity by one power.  So one inner loop would be O(N^2) and the two inner loops like we have in this problem is O(N^3).
+
+4b.The complexity is still O(N^3) because even though the added code helps in a lot of situations, the worst case scenario is still the same as without the code, so the big O stays the same.  The average time complexity may decrease because of this code but the big ) stays the same.
+
+5. The time complexity is O(N^2).  The first for loop is runs N times which always runs the get function which runs several function which are get, insert, erase that are also looped through N times.  So since we look through the entired linked list twice the time complexity is O(N^2).  the part of the code where the values of each linked list are copied into smaller and bigger has the same time complexity because each copying over takes N time.  So the time complexiy is still O(N^2)

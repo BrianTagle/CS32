@@ -1,0 +1,31 @@
+2. Stack
+4,3
+3,3
+5,3
+5,2
+5,1
+6,1
+7,1
+8,1
+8,2
+6,3
+4,4
+4,5
+
+4. Queue
+4,3
+4,4
+5,3
+3,3
+4,5
+6,3
+5,2
+4,6
+5,5
+5,1
+4,7
+6,5
+
+The stack performs a depth search.  Since the the most recent explored coordinate is added to the top of the stack, the stack continues down that path until it finds the finish or that path is exhausted.  It then will go onto the next possible path.  
+
+The queue performs a breadth search.  the queue looks at the oldest coordinates it has stored and adds new coordinates based off of that location to the back of the queue.  The queue will not get to those recently added coordinates until it has looked at all the coordinates it stored before them.  
